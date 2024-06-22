@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    user-select: none;
+}
+
+
+.nav{
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* transition: width 1s ease-in-out; */
+    background:linear-gradient(to right,black,black);
+    box-shadow: 0px;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+.nav.close{
+    width: 20%;
+    background:linear-gradient(to right,black,#1d1f27);
+    box-shadow: 30px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hote{
+    width: 66px;
+    height: 77px;
+    object-fit: contain;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.hot{
+    padding: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.subs{
+    color: gold;
+    width: 80px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(122, 106, 12);
+    display: flex;
+    flex-direction: row;
+    white-space: pre;
+    margin-left: 15px;
+    /* margin-top: 5px; */
+}
+#right{
+    background-color: rgb(122, 106, 12);
+}
+.profile{
+    /* background-color: white; */
+    height: 50px;
+    color: rgba(255, 255, 255, 0.571);
+    margin-left: 45px;
+    margin-top: 25px;
+    /* transition: transform 0.1s ease; */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s ease-in-out;
+}
+.profile:hover{
+    color: white;
+    transform: scale(1.3);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.profile.close{
+    background:linear-gradient(to right,black,#1d1f27);
+}
+#profile1{
+    color: rgba(255, 255, 255, 0.571);
+    margin-left: 45px;
+    margin-top: 90px;
+}
+.p1{
+    color: white;
+    font-size: small;
+    opacity: 0;
+    margin-left: 5px;
+    transition: opacity 1s ease-in-out;
+}
+.p1.close{
+    opacity: 1;
+}
+
+.pi{
+    width: 500px;
+    background-color: black;
+    color: black;
+    height: 650px;
+    margin-left: 600px;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.dp{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.info{
+    font-size: large;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.schooling{
+    width: 450px;
+    background-color: black;
+    color: black;
+    height: 550px;
+    margin-left: 600px;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.list{
+    font-size: large;
+    width: 300px;
+    height:400px;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    white-space: pre;
+}
+.jee{
+    margin-left: 500px;
+    border-radius: 15px;
+    margin-top: 75px;
+    width: 700px;
+    height: 500px;
+    border: 5px solid black;
+    display: none;
+}
+.sc{
+    width: 700px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.bt{
+    width: 650px;
+    background-color: black;
+    color: black;
+    height: 670px;
+    margin-left: 500px;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.amrita{
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.infor{
+    margin-left: 20px;
+    color: black;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.hobbies{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 600px;
+    display: none;
+    /* overflow: hidden; */
+}
+.hobbie{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+}
+.contact{
+    width: 400px;
+    height: 200px;
+    margin-left: 700px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 200px;
+    display: none;
+}
+.linked{
+    text-decoration: none;
+    color: white;
+}
+/* .forepage{ */
+    
+    /* margin-top: 300px; */
+    /* margin-left: 425px; */
+/* } */
+
+
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    margin: 0;
+}
+#intro{
+    z-index: 1000;
+    margin: auto;
+    font-size: 75px;
+    font-weight: bolder;
+    color: rgb(7, 3, 11);
+    position: absolute;
+    margin-top: 150px;
+    margin-left:400px ;
+}
