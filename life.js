@@ -467,7 +467,7 @@ function moving(a){
         // console.log("why am i moving 4")
     }else if(parseInt(projects.style.top)>=710){
         clearInterval(interval3);
-        interval7=setInterval(hurdles,10);
+        interval7=setInterval(hurdles,20);
         completed4=1
         projects.style.display="none";
         sg2.click();
