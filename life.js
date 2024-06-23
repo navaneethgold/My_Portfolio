@@ -377,7 +377,8 @@ function hurdles(){
 function collision(){
     if(parseInt(rock.style.left)-110<(parseInt(car.style.left)) && (parseInt(car.style.left))<parseInt(rock.style.left)+130  && Math.abs(parseInt(rock.style.top)-parseInt(car.style.top))>0 && Math.abs(parseInt(rock.style.top)-parseInt(car.style.top))<100){
         car.style.display="none";
-        crashed.play();
+        if(move!=1){
+        crashed.play();}
         sg2.click();
         setTimeout(() => {
             if(move==0){
