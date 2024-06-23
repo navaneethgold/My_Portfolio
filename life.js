@@ -387,6 +387,8 @@ function collision(){
             if(user){
                 window.location.reload();
             }
+            else{
+                crashed.pause();}
             move++;
         }
 
