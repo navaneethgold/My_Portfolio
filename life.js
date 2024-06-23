@@ -389,7 +389,9 @@ function collision(){
                 window.location.reload();
             }
             else{
-                crashed.pause();}
+                window.location.reload();
+                // crashed.pause();
+            }
             move++;
         }
 
